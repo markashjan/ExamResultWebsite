@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Testing2</title>
+        <style>
+            .result_menu{
+                background-color: whitesmoke;
+                color: black;
+                border: 2px solid black;
+                margin-left: 500px;
+                margin-top: 100px;
+                padding: 50px;
+                width: 400px;
+            }
+        </style>
+        <title>Result Page</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/">
+                    <a class="navbar-brand" href="Homepage.html">
                         <img src="/" alt="" width="" height="" class="d-inline-block aline-text-top"> WEBSITE A
                     </a>
-                    <div class="collapse navbar-collapse" id="navbarmenu">
+                    <!--NAV bar-->
+                    <!-- <div class="collapse navbar-collapse" id="navbarmenu">
                         <ul class="navbar-nav mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="/">Button 1</a>
@@ -20,12 +32,18 @@
                                 <a class="nav-link active" aria-current="page" href="/">Button 2</a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
+                </div>
+                <div class="d-flex justify-content-end"></div>
+                    <a href="userSettings.html" class="btn btn-primary me-2">Settings</a>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <a href=# class="btn btn-primary me-2">Logout</a>
                 </div>
             </nav>
         </header>
         <section>
-            <div class="container">
+            <div class="container result_menu">Your Results:
                 <div class="row">
                     <div class="col">
                         <table class="table table-bordered">
