@@ -1,0 +1,30 @@
+
+.login_menu{
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+    margin-left: 500px;
+    margin-top: 100px;
+    padding: 50px;
+    width: 400px;
+}
+
+.table_menu{
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+    margin-left: 500px;
+    margin-top: 100px;
+    padding: 50px;
+    width: 400px;
+}
+
+.result_menu{
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+    margin-left: 500px;
+    margin-top: 100px;
+    padding: 50px;
+    width: 400px;
+}
